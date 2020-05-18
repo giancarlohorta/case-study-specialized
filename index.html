@@ -8,12 +8,12 @@
   </head>
   <body>
     <header class="container">
-      <div class="grid-4">
+      <div class="grid-3">
         <a href="index.html"
           ><img src="./img/logo.svg" alt="Logo Specialized"
         /></a>
       </div>
-      <div class="grid-6">
+      <div class="grid-7 navegation">
         <nav>
           <ul>
             <li><a href="index.html">bikes</a></li>
@@ -24,7 +24,7 @@
           </ul>
         </nav>
       </div>
-      <div class="grid-2">
+      <div class="grid-2 menu-custumer">
         <ul>
           <li><img src="img/search.svg" alt="" /></li>
           <li><img src="img/heart.svg" alt="" /></li>
@@ -32,13 +32,13 @@
         </ul>
       </div>
     </header>
-    <section class="container">
-      <div class="grid-7">
+    <section class="container product">
+      <div class="grid-7 image-product">
         <img src="img/bike.jpg" />
       </div>
-      <div class="grid-5">
+      <div class="grid-5 description-product">
         <h1>S-Works Venge Disc - SRAM Red ETap AXS</h1>
-        <p>
+        <p class="text-description">
           We aren't satisfied with second fastest. Hell, why do you think we
           have our own Win Tunnel and the motto, "Aero is Everything?" We live
           and breathe aero, because we know that aerodynamic optimization is the
@@ -49,18 +49,21 @@
           definitively looking at the new shape of speed.
         </p>
         <select name="size" id="size">
+          <option value="Size">Size</option>
           <option value="S">S</option>
           <option value="M">M</option>
           <option value="X">X</option>
           <option value="XL">XL</option>
         </select>
-        <h2>$12,500</h2>
-        <div>
-          <img src="img/shopping-cart-white.svg" />
-          <p>add to cart</p>
-        </div>
-        <div>
-          <img src="img/heart-white.svg" />
+        <h2 class="price">$12,500</h2>
+        <div class="buttons">
+          <div class="button-add">
+            <img src="img/shopping-cart-white.svg" />
+            <p>add to cart</p>
+          </div>
+          <div class="button-wish">
+            <img src="img/heart-white.svg" />
+          </div>
         </div>
       </div>
     </section>
