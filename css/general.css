@@ -54,13 +54,14 @@ header {
 .button-add {
   display: inline;
   background: #ed1c24;
-  width: 203px;
-  height: 40px;
   padding: 10px 40px;
 }
 .button-add img,
 .button-add p {
   display: inline;
+}
+.button-add img {
+  margin-top: 10px;
 }
 .button-add p {
   font-family: "Open Sans Condensed", sans-serif;
