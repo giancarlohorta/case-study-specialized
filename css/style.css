@@ -1,1 +1,4 @@
+@import "./reset.css";
+@import "./normalize.css";
+@import "./grid.css";
 @import "./general.css";
