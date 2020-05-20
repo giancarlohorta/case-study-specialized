@@ -60,10 +60,7 @@ header {
 }
 .button-add img,
 .button-add p {
-  display: inline;
-}
-.button-add img {
-  margin-top: 10px;
+  display: inline-block;
 }
 .button-add p {
   font-family: "Open Sans Condensed", sans-serif;

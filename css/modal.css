@@ -1,0 +1,31 @@
+.modal-container {
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+  padding: 40px 80px;
+}
+.modal {
+  background: #f5f5f5;
+}
+
+.img-modal {
+  margin: 0;
+}
+[data-modal="fechar"] {
+  float: right;
+  border: none;
+  right: 0;
+  margin-top: 10px;
+  background: transparent;
+}
+[data-modal="fechar"] img {
+  right: 0;
+}
+.text-modal {
+  margin-left: 33px;
+  margin-right: 0;
+}
